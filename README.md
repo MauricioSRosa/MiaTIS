@@ -5,6 +5,8 @@ MaIS is a simple pipeline for analyzing potential key metabolites during the int
 
 The pipeline requires two inputs:
 1 - An EggNog-Mapper genome annotation file (in ".tabular" format).
+
 2 - A gene essentiality file (in ".genes.txt" format) for the host interaction, analyzed via TRANSIT (HMM method).
+
 
 3 - [Optional] A gene essentiality file (in ".genes.txt" format) for growth in rich medium, analyzed via TRANSIT (HMM method), to serve as a control.
